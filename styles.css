@@ -1,0 +1,135 @@
+body {background-color: #3b261c;
+font-family:Georgia, serif;}
+
+header{background-image:linear-gradient(rgba(0,0,0,0.35),rgba(0,0,0,0.35)), url("cafe-coffee.avif");
+    background-size:cover;
+    background-position: center;
+padding: 80px 20px;
+text-align:center;
+border-bottom: 2px solid #c08a5c;}
+
+
+header h1{color:white;
+    font-size: 2.8rem;
+    font-style: italic;
+margin-bottom: 10px;
+text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);}
+
+header p{color:white;
+    font-size: 1.1rem;
+margin-bottom: 25px;}
+
+header a {display:inline-block;
+    margin-top: 20px;
+background-color: #c08a5c;
+color:white;
+padding: 12px 24px;
+text-decoration: none;
+border-radius: 6px;
+border: 1px solid white;
+transition:background-color 0.3s ease;}
+
+#menu {max-width: 900px;
+margin: 0 auto;
+padding: 40px 20px;}
+
+.cafe-central{max-width: 700px;
+margin:10px auto 40px;
+padding: 40px 20px;}
+
+.cafe-central img{width: 100%;
+    max-width: 600px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border-radius: 12px;
+}
+
+.cafe-titulo{text-align:center;
+font-size: 2.5rem;
+margin-top: 25px;
+margin-bottom: 10px;
+letter-spacing: 1px;}
+
+.cafe-subtitulo{text-align: center;
+font-size: 1.1rem;
+margin-top: 0;
+letter-spacing: 0.5px;
+line-height: 1.5;}
+
+.cafe-boton{display: block;
+width: fit-content;
+margin: 25px auto 0;
+padding: 12px 24px;
+text-decoration: none;
+border-radius: 6px;
+background-color: #6f4e37;
+color: white;
+transition: background-color 0.3s ease, transform 0.3s ease;}
+
+.cafe-boton:hover{background-color: #d4a373;
+transform: translateY(-2px);}
+
+#menu h2{text-align: center;
+font-size: 2.2rem;
+margin-top: 40px;
+margin-bottom: 30px;}
+
+.productos {display:grid;
+grid-template-columns: repeat(3, 1fr);
+gap:20px;}
+
+.productos article{background-color: #e8d5c0;
+padding: 25px 25px 5px;
+border-radius: 12px;
+box-shadow: 0 4px 10px rgba(0,0,0,0.12);}
+
+.productos article p{line-height:1.6;}
+
+.productos article h3{color:#6f4e37;
+font-size: 1.4rem;
+margin-top: 0;}
+
+.productos .precio{color: #6f4e37;
+font-size: 1.3rem;
+font-weight: bold;
+text-align: right;
+margin-top: 15px;}
+
+@media (max-width:600px){.productos{grid-template-columns: 1fr;}
+header h1{font-size: 2.2rem;}
+.cafe-titulo{font-size: 2rem;}
+.cafe-subtitulo{font-size: 1rem;}
+header{padding: 60px 20px;}}
+
+
+#contacto{text-align: center;
+padding: 40px 20px;}
+
+#contacto h2{font-size: 2.2rem;
+margin-bottom: 15px;}
+
+#contacto p{margin-bottom: 20px;}
+
+#contacto a{display: inline-block;
+margin-top: 10px;
+background-color: #c08a5c;
+color:white;
+padding: 12px 24px;
+text-decoration: none;
+border-radius: 8px;
+transition:background-color 0.3s ease;}
+
+header a:hover, #contacto a:hover{background-color: #d4a373;}
+
+header, #contacto{color:#f5efe6;}
+
+#menu, footer{color: #f5efe6;}
+
+footer{text-align:center;
+padding:25px 20px;
+border-top: 1px solid #c08a5c;}
+
+#menu article{color:#3b261c;}
+
+html{scroll-behavior: smooth;}
